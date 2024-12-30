@@ -8,6 +8,7 @@ body {
 .top-menu h3 {
   color: #201E1E;
   font-size: 20px;
+  margin-bottom: 8px;
 }
 .top-menu p {
   color: #201E1E;
@@ -111,6 +112,15 @@ body {
         font-weight: 500;
        }
     }
+    .loction-div {
+      display: flex;
+          gap: 10px;
+          align-items: center;
+
+          img {
+            width: 16px;
+          }
+    }
   }
   .button-sec{
     display: flex;
@@ -118,7 +128,7 @@ body {
     gap: 8px;
     margin-top: 18px;
     button {
-      background: #fff;
+      background: transparent;
       border: 2px solid #1679C1;
       border-radius: 6px;
       text-transform: uppercase;

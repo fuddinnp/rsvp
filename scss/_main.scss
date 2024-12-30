@@ -671,7 +671,7 @@ thead tr th {
   display: flex;
   flex: 1;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 10px;
 
   ul {
@@ -3912,7 +3912,7 @@ table .bold-heading {
   text-decoration: line-through;
 }
 .logo {
-  height: 50px;
+  height: 75px;
   width: 100%;
 }
 .btn-round {
